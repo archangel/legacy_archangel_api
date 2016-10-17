@@ -1,0 +1,8 @@
+en:
+  archangel:
+    archangel_api:
+      api_token: API Token
+      are_you_sure_retoken: Are you sure you want to retoken the API key for this user?
+      are_you_sure_retoken_yourself: Are you sure you want to retoken the API key for yourself?
+      generate: Generate
+      regenerate: Regenerate

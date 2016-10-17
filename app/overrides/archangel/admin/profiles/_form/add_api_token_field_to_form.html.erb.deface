@@ -1,0 +1,28 @@
+<!-- insert_bottom ".form-inputs" -->
+
+<div class="form-group string required profile_api_token">
+  <label class="col-sm-2 control-label string" for="profile_api_token">
+    <%= Archangel.t(:api_token, scope: :archangel_api) %>
+  </label>
+
+  <div class="col-sm-10">
+    <% if f.object.api_token.present? %>
+
+      <%= link_to(fa_icon("refresh", text: Archangel.t(:regenerate, scope: :archangel_api)),
+                  admin_profile_retoken_path,
+                  class: "btn btn-danger btn-sm",
+                  method: :post,
+                  data: { confirm: Archangel.t(:are_you_sure_retoken_yourself, scope: :archangel_api) }) %>
+
+      <%= f.object.api_token %>
+
+    <% else %>
+
+    <%= link_to(fa_icon("refresh", text: Archangel.t(:generate, scope: :archangel_api)),
+                admin_profile_retoken_path,
+                class: "btn btn-danger btn-sm",
+                method: :post) %>
+
+    <% end %>
+  </div>
+</div>
