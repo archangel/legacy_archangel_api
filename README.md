@@ -1,6 +1,13 @@
 # ArchangelApi
 
-Introduction goes here.
+**ArchangelApi is currently under development. It is not ready for production use.**
+
+[![Travis CI](https://travis-ci.org/archangel/archangel_api.svg?branch=master)](https://travis-ci.org/archangel/archangel_api)
+[![Coverage Status](https://coveralls.io/repos/github/archangel/archangel_api/badge.svg?branch=master)](https://coveralls.io/github/archangel/archangel_api?branch=master)
+[![Code Climate](https://codeclimate.com/github/archangel/archangel_api/badges/gpa.svg)](https://codeclimate.com/github/archangel/archangel_api)
+[![Dependency Status](https://gemnasium.com/badges/github.com/archangel/archangel_api.svg)](https://gemnasium.com/github.com/archangel/archangel_api)
+
+This project rocks and uses MIT-LICENSE.
 
 ## Table of contents
 
